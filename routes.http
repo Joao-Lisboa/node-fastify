@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-fastify-hsgj.onrender.com/videos
 Content-Type: application/json
 
     {
@@ -10,27 +10,27 @@ Content-Type: application/json
 ###
 // GET SEM QUERY PARAMS
 
-GET http://localhost:3333/videos
+GET https://node-fastify-hsgj.onrender.com/videos
 
 ###
 // GET COM QUERY PARAMS
 
-GET http://localhost:3333/videos?search=video 1
+GET https://node-fastify-hsgj.onrender.com/videos?search=video 1
 
 ###
 
-PUT http://localhost:3333/videos/84443489-882e-4838-844c-df8ad3e559b0
+PUT https://node-fastify-hsgj.onrender.com/videos/84443489-882e-4838-844c-df8ad3e559b0
 Content-Type: application/json
 Accept-Language: pt-BR
 
 {
-    "title": "video 10 atualizado",
-    "description": "video 10 description atualizado",
+    "title": "video 9 atualizado",
+    "description": "video 9 description atualizado",
     "duration": 180 
 }
 
 ###
 
-DELETE http://localhost:3333/videos/9878cfd2-cbfe-4064-9454-14b09807e8eb
+DELETE https://node-fastify-hsgj.onrender.com/videos/9878cfd2-cbfe-4064-9454-14b09807e8eb
 
 
